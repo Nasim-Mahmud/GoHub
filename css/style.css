@@ -10,7 +10,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family: ;
+	font-family: 'Poppins', sans-serif;
 }
 
 a, a:hover{
@@ -20,7 +20,6 @@ a, a:hover{
 	width: 100%;
 	background: url("../images/bg.png") center top no-repeat;
 	background-size: inherit;
-	overflow-x: hidden;
 }
 .header-section .bg-light{
 	background-color: transparent !important;
@@ -288,8 +287,8 @@ a, a:hover{
 	padding: 10px 0px;
 }
 .whatDo .inner-btn02 {
-    width: 100%;
-    padding: 50px 0px 0px;
+	width: 100%;
+	padding: 40px 0px 0px;
 }
 .whatDo .inner-btn02 .btn-primary{
 	font-size: 16px;
@@ -310,7 +309,7 @@ a, a:hover{
 	background: transparent;
 	border: none;
 	color: #525f7f;
-	padding: 0px 20px;
+	padding: 0px 25px;
 	transition: 1s;
 }
 .whatDo .inner-btn02 .btn-light:hover, .whatDo .inner-btn02 .btn-light:focus{
@@ -320,4 +319,155 @@ a, a:hover{
 	font-size: 15px;
 	padding: 5px 5px;
 }
+
+
+.whatWeDo{
+	width: 100%;
+	padding: 80px 0px;
+}
+.whatWeDo .main-sect {
+	padding: 30px 0px 0px;
+}
+.whatWeDo .main-sect h2{
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 50px;
+	letter-spacing: 1px;
+	margin: 15px 0px 0px;
+	color: #32325d;
+}
+.whatWeDo .main-sect p{
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px;
+	color: #525f7f;
+	padding: 25px 0px;
+}
+.whatWeDo .main-sect .inner-sec-l1 h3, .whatWeDo .main-sect .inner-sec-r1 h3{
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: 1px;
+	margin: 0px;
+	color: #32325d;
+	padding: 10px 0px 0px;
+}
+.whatWeDo .main-sect .inner-sec-l1 p, .whatWeDo .main-sect .inner-sec-r1 p{
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px;
+	color: #525f7f;
+	padding: 10px 0px;
+}
+.whatWeDo .inner-btn02 {
+	width: 100%;
+	padding: 40px 0px 0px;
+}
+.whatWeDo .inner-btn02 .btn-primary{
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background: #845cff;
+	border: 1px solid #eee;
+	transition: 1s;
+}
+.whatWeDo .inner-btn02 .btn-primary:hover, .whatWeDo .inner-btn02 .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #845cff;
+	color: #845cff;
+}
+.whatWeDo .inner-btn02 .btn-light{
+	font-size: 16px;
+	font-weight: 600;
+	background: transparent;
+	border: none;
+	color: #525f7f;
+	padding: 0px 25px;
+	transition: 1s;
+}
+.whatWeDo .inner-btn02 .btn-light:hover, .whatWeDo .inner-btn02 .btn-light:focus{
+	color: #845cff;
+}
+.whatWeDo .inner-btn02 .fa {
+	font-size: 15px;
+	padding: 5px 5px;
+}
 /*What we do section ends*/
+
+/*Finance section starts*/
+.finance{
+	width: 100%;
+	padding: 80px 0px;
+}
+.finance .story{
+
+}
+.finance .story h2 {
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 50px;
+	letter-spacing: 1px;
+	padding: 60px 0px 0px;
+	color: #32325d;
+	margin: 0px;
+}
+.finance .story p{
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px;
+	color: #525f7f;
+	padding: 35px 0px;
+}
+.finance .image-s img {
+	height: 485px;
+}
+.finance .save{
+
+}
+.finance .save h4 {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0px;
+	padding: 60px 0px 30px;
+}
+.finance .save ul li{
+	list-style: none;
+}
+.finance .save ul li img {
+	padding: 15px 15px 15px 0px;
+}
+.finance .save2{
+
+}
+.finance .save2 h4 {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0px;
+	padding: 60px 0px 30px;
+}
+.finance .save2 ul li{
+	list-style: none;
+}
+.finance .save2 ul li img {
+	padding: 15px 15px 15px 0px;
+}
+
+.finance .save3{
+
+}
+.finance .save3 h4 {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0px;
+	padding: 60px 0px 30px;
+}
+.finance .save3 ul li{
+	list-style: none;
+}
+.finance .save3 ul li img {
+	padding: 15px 15px 15px 0px;
+}
+/*Finance section ends*/
