@@ -426,7 +426,7 @@ a, a:hover{
 }
 .finance .save h4 {
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 600;
 	letter-spacing: 1px;
 	margin: 0px;
 	padding: 60px 0px 30px;
@@ -442,7 +442,7 @@ a, a:hover{
 }
 .finance .save2 h4 {
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 600;
 	letter-spacing: 1px;
 	margin: 0px;
 	padding: 60px 0px 30px;
@@ -459,7 +459,7 @@ a, a:hover{
 }
 .finance .save3 h4 {
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 600;
 	letter-spacing: 1px;
 	margin: 0px;
 	padding: 60px 0px 30px;
@@ -471,3 +471,186 @@ a, a:hover{
 	padding: 15px 15px 15px 0px;
 }
 /*Finance section ends*/
+
+
+/*mail section starts*/
+.mail{
+	width: 100%;
+	padding: 80px 0px;
+	background: #fafaff;
+}
+.mail .get-started{
+
+}
+.mail .get-started img{
+
+}
+.mail .get-started h2 {
+	font-size: 35px;
+	font-weight: 300;
+	color: #212240;
+	padding: 20px 0px;
+}
+.mail .get-started p {
+	margin: 0px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #212240;
+}
+
+.mail .box{
+
+}
+.mail .box .form-inline{
+	margin: 0px;
+}
+.mail .box .form-control {
+	position: relative;
+	top: 35px;
+	/*left: -80px;*/
+	border: none;
+	box-shadow: -2px 2px 10px #eee;
+	padding: 30px 220px 30px 0px;
+}
+.mail .box .form-control::placeholder{
+	color: #8081ab;
+	padding: 0px 20px;
+}
+.mail .box .btn-primary {
+	position: absolute;
+	font-size: 14px;
+	font-weight: 600;
+	right: 130px;
+	top: 50px;
+	background: transparent;
+	color: #845cff;
+	border: none;
+	transition: 1s;
+}
+.mail .box .btn-primary img {
+	padding: 0px 0px 0px 8px;
+}
+.mail .box .btn-primary:hover, .mail .box .btn-primary:focus{
+	color: #000;
+}
+/*mail section ends*/
+
+/*main footer starts*/
+
+.mainFoot{
+	width: 100%;
+	padding: 80px 0px;
+	background: #212240;
+}
+.mainFoot .add{
+	font-size: 14px;
+	font-weight: 400;
+	color: #d3d3d9;
+}
+.mainFoot .add img {
+    padding: 20px 0px 45px;
+}
+.mainFoot .add p {
+	padding: 10px 0px 0px;
+}
+.mainFoot .add ul {
+	display: block;
+	margin: 0px;
+	padding: 40px 0px 0px;
+}
+.mainFoot .add ul li{
+	list-style: none;
+	display: inline-block;
+}
+.mainFoot .add ul li a span .fa{
+	padding: 0px;
+	color: #555377;
+	font-size: 18px;
+}
+.mainFoot .add ul li a .fa {
+	margin: 0px;
+	padding: 0px 0px 0px 30px;
+	color: #555377;
+	font-size: 18px;
+	transition: 1s;
+}
+.mainFoot .add ul li a .fa:hover, .mainFoot .add ul li a .fa:focus{
+	color: #93B3DF;
+}
+
+.mainFoot .part01, .part02, .part03{
+
+}
+.mainFoot .part01 ul, .part03 ul{
+	margin: 0px;
+	padding: 0px;
+}
+.mainFoot .part02 ul{
+	margin: 0px;
+	padding: 0px;
+}
+.mainFoot .part02 ul li{
+	list-style: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 15px 0px;
+}
+.mainFoot .part02 ul li a{
+	font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #d3d3d9;
+    transition: 1s;
+}
+.mainFoot .part01 ul li, .part03 ul li {
+    list-style: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 15px 0px;
+}
+.mainFoot .part01 ul li a, .part03 ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #d3d3d9;
+    transition: 1s;
+}
+.mainFoot ul li a:hover, .mainFoot ul li a:focus{
+	color: #93B3DF;
+}
+.mainFoot .copywrite {
+    margin: 0px;
+    padding: 100px 0px 0px;
+    color: #555377;
+	font-size: 14px;
+}
+.mainFoot .op {
+    margin: 0px;
+    padding: 100px 0px 0px;
+    color: #555377;
+	font-size: 14px;
+}
+.mainFoot .op ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+.mainFoot .op ul li{
+	display: inline-block;
+	list-style: none;
+}
+.mainFoot .op ul li a {
+    padding: 0px 24px;
+    color: #555377;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 1s;
+}
+.mainFoot .op ul li a:hover, .mainFoot .op ul li a:focus{
+	color: #93B3DF;
+}
+/*main footer ends*/
